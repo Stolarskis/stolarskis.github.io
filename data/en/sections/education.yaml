@@ -1,0 +1,24 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: truek
+degrees:
+- name: Click link to view a video on my Robotic Arm Project 
+  icon: fa-robot 
+  timeframe: 2018
+  institution:
+    name: College of Charleston Robotics Lab
+    url: "https://www.youtube.com/watch?v=Aju2WAGwkUg"
+  extracurricularActivities: #(optional)
+- name: B.S in Computer Science 
+  icon: fa-graduation-cap
+  timeframe: 2014-2018
+  institution:
+    name: College of Charleston 
+    url: "https://compsci.cofc.edu/"
