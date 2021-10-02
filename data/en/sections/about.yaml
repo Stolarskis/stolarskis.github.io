@@ -1,0 +1,44 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+# your company information
+# company:
+#   name: Example Co.
+#   url: "https://www.example.com"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "I am a passionate software engineer with a year of professional experience in Java and another year of experience as a devops engineer. In my spare time I enjoy working on side projects, taking care of my many plants, and climbing! I'm currently looking for an entry level position in Golang. Please reach out if you have any quesetions."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/stolarskis"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://github.com/stolarskis"
+- name: Snails
+  icon: "fas fa-question"
+  url: "https://www.youtube.com/watch?v=vq_LPys54qU"
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+# softSkills:
+# - name: Java 
+#   percentage: 25 
+#   color: blue
+# - name: Golang
+#   percentage: 15
+#   color: yellow

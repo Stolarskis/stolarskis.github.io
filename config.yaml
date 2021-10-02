@@ -18,6 +18,8 @@ markup:
     endLevel: 6
     ordered: false
 
+background: "images/default-background.jpeg"
+
 # At least HTML and JSON are required for the main HTML content and
 # client-side JavaScript search
 outputs:
@@ -46,8 +48,10 @@ params:
   # You can also hide it from the footer.
   newsletter:
     # specify whether you want to display the newsletter form 
-    enable: true
+    enable: false 
     # specify which newsletter provider you want to use
     provider: mailchimp
     # specify the target URL for the subscription form
-    mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+    # mailchimpURL: 
+
+  background: "images/background/plant_pic.jpeg"
