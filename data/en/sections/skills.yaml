@@ -1,0 +1,78 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Go Development
+  logo: /images/sections/skills/go.png
+  summary: "I'm currently working on gaining experience in Golang!
+  \n
+  \n
+  ([Check out GoPlant in Projects Tab!](files/resume.pdf)).
+  \n
+  \n
+  Experience developing REST Apis and automated integration tests. Currently looking for an entry level position in Golang"
+  url: "https://golang.org/"
+
+- name: Java Development
+  logo: /images/sections/skills/java.png
+  summary: "Experience developing SpringBoot Apis, maintaining legacy Spring applications, written unit and integration tests to increase resiliency."
+  url: "https://www.java.com/en/"
+
+- name: JUnit
+  logo: /images/sections/skills/junit.png
+  summary: "Experienced writing both unit,mock, and integration tests via JUnit."
+  url: "https://junit.org/junit5/"
+
+- name: Mockito
+  logo: /images/sections/skills/mockito.jpeg
+  summary: "Written new unit tests and translated legacy JMockIt tests into Mockito."
+  url: "https://site.mockito.org/"
+
+- name: Amazon Web Services 
+  logo: /images/sections/skills/aws.png
+  summary: "Used a variety of AWS services, such as Lambda, EC2, S3, CloudSearch, while working as a Devops Engineer."
+  url: "https://aws.amazon.com/"
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.png
+  summary: "Capable of montoring, managing, and setting up applications on kubernetes."
+  url: "https://kubernetes.io/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.jpeg
+  summary: "Worked with Docker both as a deveops and software engineer. Experienced with multi-stage builds to save space in repositories."
+  url: "https://www.docker.com/"
+
+- name: Prometheus/Grafana
+  logo: /images/sections/skills/prometheus.png
+  summary: "With Prometheus handling the data and Grafana visualizing it, I've built dashboards to montior the health of applications running in Kubernetes Pods"
+  url: "https://prometheus.io/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development, mainly using Github."
+  url: "https://git-scm.com/"
+
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Experienced building out infrastructure to fit a team's needs. In my personal projects I've used Terraform to setup K8s clusters on both GCP and AWS."
+  url: "https://www.terraform.io/"
+
+- name: Postman
+  logo: /images/sections/skills/postman.jpeg
+  summary: "Experienced using Postman to build integration and mock tests for Java/Golang REST Apis."
+  url: "https://www.postman.com/"
+
+- name: Jenkins 
+  logo: /images/sections/skills/jenkins.png
+  summary: "Built pipelines for automating testing of an application and generating updated docker images."
+  url: "https://www.jenkins.io/"
