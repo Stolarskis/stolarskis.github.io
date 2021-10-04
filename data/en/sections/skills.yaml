@@ -49,7 +49,7 @@ skills:
 
 - name: Docker
   logo: /images/sections/skills/docker.jpeg
-  summary: "Worked with Docker both as a deveops and software engineer. Experienced with multi-stage builds to save space in repositories."
+  summary: "Worked with Docker both as a devops and software engineer. Experienced with multi-stage builds to save space in repositories."
   url: "https://www.docker.com/"
 
 - name: Prometheus/Grafana
