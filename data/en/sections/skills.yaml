@@ -19,12 +19,12 @@ skills:
   ([Check out GoPlant in Projects Tab!](files/resume.pdf)).
   \n
   \n
-  Experience developing REST Apis and automated integration tests. Currently looking for an entry level position in Golang"
+  Experience developing REST APIs and automated integration tests. Currently looking for an entry level position in Golang"
   url: "https://golang.org/"
 
 - name: Java Development
   logo: /images/sections/skills/java.png
-  summary: "Experience developing SpringBoot Apis, maintaining legacy Spring applications, written unit and integration tests to increase resiliency."
+  summary: "Experience developing SpringBoot APIs, maintaining legacy Spring applications, written unit and integration tests to increase resiliency."
   url: "https://www.java.com/en/"
 
 - name: JUnit
@@ -69,7 +69,7 @@ skills:
 
 - name: Postman
   logo: /images/sections/skills/postman.jpeg
-  summary: "Experienced using Postman to build integration and mock tests for Java/Golang REST Apis."
+  summary: "Experienced using Postman to build integration and mock tests for Java/Golang REST APIs."
   url: "https://www.postman.com/"
 
 - name: Jenkins 
