@@ -21,13 +21,13 @@ experiences:
     end: Oct 2018 
     responsibilities:
     - Developed and maintained testing suite
-    - Added new functionality to microservices to fit software requirements
+    - Added new functionality to micro-services to fit software requirements
 
 - company:
     name: Booz Allen Hamilton
     url: "https://www.boozallen.com/"
     location: Charleston, SC
-    overview: consulting firm with expertise in analytics, digital, engineering, and cyber, that helps businesses, government, and military organizations transform.
+    overview: Consulting firm with expertise in analytics, digital, engineering, and cyber, that helps businesses, government, and military organizations transform.
   positions:
   - designation: Devops Engineer (Veteran Affairs Cloud Migration)
     start: Febuary 2019
@@ -39,7 +39,7 @@ experiences:
     start: Febuary 2019
     end: Febuary 2020
     responsibilities:
-    - Created Jenkins pipelines to test and compule, and to build and deploy docker images automatically
+    - Created Jenkins pipelines to test/compile source code, and to deploy new docker images automatically
     - Managed application running in production environments via Jenkins and Kubernetes
     - Designed Grafana dashboards using promethus to monitor Kubernetes pods.  
   - designation: Software Engineer
