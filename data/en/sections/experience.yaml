@@ -14,14 +14,14 @@ experiences:
     name: AVOXI 
     url: "https://www.avoxi.com/"
     location: Charleston, South Carolina 
-    overview: AVOXI is a online voip company that manages your complete global communications needs.
+    overview: Cloud communications platform specializing in contact center and virtual number solutions
   positions:
   - designation: Intern
     start: May 2018
     end: Oct 2018 
     responsibilities:
-    - Developed and maintained testing suite
-    - Added new functionality to micro-services to fit software requirements
+    - Developed and maintained testing suite.
+    - Added new functionality to micro-services to fit software requirements.
 
 - company:
     name: Booz Allen Hamilton
@@ -33,19 +33,19 @@ experiences:
     start: February 2019
     end: February 2020
     responsibilities:
-    - Developed AWS Lambda scripts using Python to monitor server health. 
-    - Created Terraform configuration files to build out immutable infrastructure
+    - Developed AWS Lambda scripts to monitor server health. 
+    - Created Terraform configuration files to build out immutable infrastructure.
   - designation: Devops Engineer (Production Operations)
     start: February 2019
     end: February 2020
     responsibilities:
-    - Created Jenkins pipelines to test/compile source code, and to deploy new docker images automatically
-    - Managed application running in production environments via Jenkins and Kubernetes
-    - Designed Grafana dashboards using prometheus to monitor Kubernetes pods.  
+    - Created Jenkins pipelines to test/compile source code, and to deploy new docker images automatically.
+    - Managed application running in production environments via Jenkins and Kubernetes.
+    - Designed Grafana dashboards, using prometheus under the hood, to monitor application running on Kubernetes cluster.  
   - designation: Software Engineer
-    start: Febuary 2020 
+    start: February 2020 
     end: September 2021 
     responsibilities:
-    - Broke out functionality from monolith into micro-services.
+    - Broke out functionality from monolith application into micro-services.
     - Updated legacy application to include new software requirements.
-    - Created unit tests with JUnit and Mockito, and Integration tests with Postman
+    - Created unit tests with JUnit and Mockito, and Integration tests with Postman.
