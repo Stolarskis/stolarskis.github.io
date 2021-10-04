@@ -30,14 +30,14 @@ experiences:
     overview: Consulting firm with expertise in analytics, digital, engineering, and cyber, that helps businesses, government, and military organizations transform.
   positions:
   - designation: Devops Engineer (Veteran Affairs Cloud Migration)
-    start: Febuary 2019
-    end: Febuary 2020
+    start: February 2019
+    end: February 2020
     responsibilities:
-    - Developed AWS Lambda scripts using Python to montior server health. 
+    - Developed AWS Lambda scripts using Python to monitor server health. 
     - Created Terraform configuration files to build out immutable infrastructure
   - designation: Devops Engineer (MBMS Production Operations)
-    start: Febuary 2019
-    end: Febuary 2020
+    start: February 2019
+    end: February 2020
     responsibilities:
     - Created Jenkins pipelines to test/compile source code, and to deploy new docker images automatically
     - Managed application running in production environments via Jenkins and Kubernetes
@@ -47,5 +47,5 @@ experiences:
     end: September 2021 
     responsibilities:
     - Broke out functionality from monolith into microservices.
-    - Updated legacy application to include new software requirenents.
+    - Updated legacy application to include new software requirements.
     - Created unit tests with JUnit and Mockito, and Integration tests with Postman
