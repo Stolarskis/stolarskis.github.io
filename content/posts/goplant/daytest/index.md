@@ -6,6 +6,7 @@ menu:
   sidebar:
     name: Goplant Wireless Test
     identifier: wirelessTest 
+    parent: goplant 
     weight: 40
 hero: finishedPlantPotOnWindowCloseUpBanner.jpeg
 ---
