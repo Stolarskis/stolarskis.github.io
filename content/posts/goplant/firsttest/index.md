@@ -1,11 +1,11 @@
 ---
-title: "Goplant Wireless Test"
+title: "Goplant's First Test"
 date: 2021-10-29
 description: Summary of GoPlant's first test 
 menu:
   sidebar:
-    name: Goplant Wireless Test
-    identifier: wirelessTest 
+    name: Goplant's First Test
+    identifier: firsttest 
     parent: goplant 
     weight: 40
 hero: finishedPlantPotOnWindowCloseUpBanner.jpeg
@@ -25,13 +25,13 @@ API setup was pretty straight forward thanks to the helm chart that automates se
 
 The plan was to setup a all-in-one "system"
 
-{{< img src="/posts/daytest/finishedPlantPotOnWindow.jpeg" float="right" height="700" width="600"  title="Finished Plant Pot" >}} 
+{{< img src="/posts/goplant/firsttest/finishedPlantPotOnWindow.jpeg" float="right" height="700" width="600"  title="Finished Plant Pot" >}} 
 
 ##### Soil Sensors
 
 Both soil sensors were purchased from Vegetronix. They are super easy to setup because it only has three wires, power, ground, and out, and you plug these directly into the Microcontroller.
 
-{{< img src="/posts/daytest/soil_sensors.jpeg" height="250" width="300" title="Soil Sensors" >}}
+{{< img src="/posts/goplant/firsttest/soil_sensors.jpeg" height="250" width="300" title="Soil Sensors" >}}
 
 ##### Light Intensity Sensor
 
@@ -39,9 +39,9 @@ The light sensor was slightly more complicated to setup because it uses a Photor
 
 Trying to tape the bread board circuit to the plant pot turned out to be more trouble than it was worth. Instead I grabbed some PCB prototype board and soldered the components together into one unit. This was my first time converting a breadboard circuit to PCB and the final product did work the *first time* ! I felt as if I passed some right of passage as a electrical hobbyist. 
 
-{{< img src="/posts/daytest/bread_board_photoresistor_circuit.jpeg" height="200" width="300" float="left" title=" Bread board photoresistor circuit" >}}
+{{< img src="/posts/goplant/firsttest/bread_board_photoresistor_circuit.jpeg" height="200" width="300" float="left" title=" Bread board photoresistor circuit" >}}
 
-{{< img src="/posts/daytest/pcbPhotoresistor.jpeg" height="200" width="300" float="left" title="Bread board photoresistor circuit" >}}
+{{< img src="/posts/goplant/firsttest/pcbPhotoresistor.jpeg" height="200" width="300" float="left" title="Bread board photoresistor circuit" >}}
 
 {{< vs 15 >}}
 
@@ -52,7 +52,7 @@ Trying to tape the bread board circuit to the plant pot turned out to be more tr
 
 I started with three separate arduino scripts for each sensor. The difference between each script being the logic to convert the analog reading into a unit or percentage. As it turns out, the output for the analog output is converted to an integer between 0-1023. I decided to make things easy for myself and store this value in the Database, saving the conversion logic for the script that takes the data and plots it on a graph. For example, light to lumens, soil temperature to Celsius and soil humidity to a percentage.
 
-{{< img src="/posts/daytest/microController.jpeg" height="200" width="200" float="right" title="Microcontroller" >}}
+{{< img src="/posts/goplant/firsttest/microController.jpeg" height="200" width="200" float="right" title="Microcontroller" >}}
 
 ##### Over The Air (OTA) Updates
 One of the most exciting features I found for these Microcontrollers (Using Arduinos OTA example sketch) is Over The Air updates. Every time I setup a new cluster, either locally on my computer or on a cloud service, the ips and ports change. As more Microcontrollers are added to the system, it can get pretty time consuming to, plug in Microcontroller, flash firmware, plug in next controller, rinse and repeat, only to realize you didn't update some value and have to do it again. Using OTA, as long as the Microcontrollers are plugged in, all I have to do is select the port and upload the new firmware *wirellessly*! The first time this worked I woke my roommates up with a thunderous "YESSSSS!!!!!!!"
