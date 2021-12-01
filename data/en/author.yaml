@@ -2,15 +2,14 @@
 name: "Scott Stolarski"
 nickname: "Scott"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "Hi, my name is "
 image: "images/author/scott.jpeg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "csstolarski@gmail.com"
-  # phone: "+0123456789"
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I love working with Golang
-  - I love to work with some fun projects
+  #  - Interested in gaining experience in golang
+  #  - Thank you for visiting my site
+  #  - If you have any questions please reach out!

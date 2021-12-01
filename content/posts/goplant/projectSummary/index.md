@@ -8,7 +8,7 @@ menu:
     identifier: projectDescription 
     parent: goplant 
     weight: 40
-hero: finishedPlantPotOnWindowCloseUpBanner.jpeg
+hero: firstTest.jpeg
 ---
 
 ## What is Goplant?
